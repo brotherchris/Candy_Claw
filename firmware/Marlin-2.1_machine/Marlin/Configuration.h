@@ -980,7 +980,7 @@
  *
  * :[2,3,4,5,6,7]
  */
-//#define ENDSTOP_NOISE_THRESHOLD 2
+#define ENDSTOP_NOISE_THRESHOLD 2
 
 // Check for stuck or disconnected endstops during homing moves.
 //#define DETECT_BROKEN_ENDSTOP
@@ -1487,8 +1487,8 @@
 // @section machine
 
 // The size of the printable area
-#define X_BED_SIZE 315
-#define Y_BED_SIZE 280
+#define X_BED_SIZE 313
+#define Y_BED_SIZE 307
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
