@@ -4238,10 +4238,10 @@
   //#define INVERT_JOY_Z  // Enable if Z direction is reversed
 
   // Use M119 with JOYSTICK_DEBUG to find reasonable values after connecting:
-  #define JOY_X_LIMITS { 0, 6000-100, 8000+100, 17000 } // min, deadzone start, deadzone end, max
-  #define JOY_Y_LIMITS { 0, 6000-100, 8000+100, 17000 }
+  #define JOY_X_LIMITS { 0, 6500-200, 8500+200, 17000 } // min, deadzone start, deadzone end, max
+  #define JOY_Y_LIMITS { 0, 7500-200, 9500+200, 17000 }
   #define JOY_Z_LIMITS { 0, 6000-100, 8000+100, 17000 }
-  //#define JOYSTICK_DEBUG
+  #define JOYSTICK_DEBUG
 #endif
 
 /**
